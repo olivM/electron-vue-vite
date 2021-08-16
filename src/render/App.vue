@@ -1,20 +1,24 @@
 <template>
   <div class="logo-box">
-    <img style="height:200px;" src="./assets/electron.png" alt="Electron logo">
+    <img
+      style="height: 200px"
+      src="./assets/electron.png"
+      alt="Electron logo"
+    />
     <img alt="Vue logo" src="./assets/logo.png" />
   </div>
-  <HelloWorld msg="Electron@12、Vue@3、Vite@2" />
+  <HelloWorld msg="aaaa Electron@12、Vue@3、Vite@2" />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    HelloWorld,
+  },
+};
 </script>
 
 <style>

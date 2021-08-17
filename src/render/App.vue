@@ -1,30 +1,30 @@
 <template>
-  <div class="logo-box">
-    <img
-      style="height: 200px"
-      src="./assets/electron.png"
-      alt="Electron logo"
+  <div class="h-screen w-screen flex flex-col pt-12">
+    <nav
+      class="
+        w-screen
+        h-12
+        border-primary-800 border-b
+        items-center
+        flex
+        shadow-xl
+        z-0
+        fixed
+        top-0
+      "
+      style="-webkit-app-region: drag"
     />
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <Editor />
   </div>
-  <HelloWorld msg="aaaa Electron@12、Vue@3、Vite@2" />
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Editor from "./components/Editor.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Editor,
   },
 };
 </script>
-
-<style>
-.logo-box {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-}
-</style>
